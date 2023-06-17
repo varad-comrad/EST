@@ -3,12 +3,12 @@ from functools import total_ordering
 
 @total_ordering
 class Aluno:
-    def __init__(self, nome: str, numero: Union[int,str],
-                    prioridade: int,
-                    tucmd: Optional[str] = None,
-                    baixado: Optional[str] = None,
-                    descanso: Optional[str] = None,
-                    troca: Optional[str] = None) -> None:
+    def __init__(self, nome: str, numero: str,
+                    prioridade: str,
+                    tucmd: str,
+                    baixado: str,
+                    descanso: str,
+                    troca: str) -> None:
         self.__nome: str = nome
         if numero:
             self.__numero: int = int(numero)
@@ -59,10 +59,10 @@ class Aluno:
     
 if __name__ == '__main__':
     from List import List
-    a1 = Aluno('a1','21064',1) 
-    a2 = Aluno('a2','22064',2)
-    a3 = Aluno('a4','22064',4)
-    a4 = Aluno('a3','22064',3)
+    a1 = Aluno('a1','21064','1', '' ,'' ,'', '') 
+    a2 = Aluno('a2', '22064', '2', '', '', '', '')
+    a3 = Aluno('a4', '22064', '4', '', '', '', '')
+    a4 = Aluno('a3', '22064', '3', '', '', '', '')
     l = List([a1,a2,a3,a4])
     l.sort(reverse=True)
     print([i.nome for i in l])

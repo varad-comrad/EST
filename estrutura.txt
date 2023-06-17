@@ -1,8 +1,8 @@
 le-se o arquivo alunos.csv
 deduz-se o ultimo a tirar servico (baseado no tempo de descanso dos militares)
-monta-se a escala para a quantidade de dias especificados e com os postos especificados (dois metodos de implementacao)
+monta-se a escala para a quantidade de dias especificados e com os postos especificados 
 upa-se o arquivo alunos.csv
 
-transforamar em biblioteca (setup.py e requirements.txt)
+transformar em biblioteca (setup.py e requirements.txt)
 utilizar pandas para visualização da escala e geração do arquivo escala.csv
 (?) usar PyPDF para montar o documento pdf da escala de svc automaticamente
