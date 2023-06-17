@@ -1,0 +1,2 @@
+from escala import GeradorEscala
+

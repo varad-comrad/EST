@@ -18,9 +18,8 @@ class Aluno:
         self.__baixado: bool = bool(baixado)
         self.__descanso: bool = bool(descanso)
         self.__troca: str | None = troca
-        self.__prioridade: int = int(prioridade) #! WARNING!!! baixado and tucmd are not supposed to be used here.
-                                                                   #! Rather, priority should be carried from file
-
+        self.__prioridade: int = int(prioridade) 
+        
     def __str__(self) -> str:
         return self.__nome
     
