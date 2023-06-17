@@ -1,0 +1,6 @@
+compensacao por prioridade:
+    - ordenar por prioridade e entao por nome
+    - se os prioritarios estiverem em condições de tirar serviço, atributo prioridade é reduzido 
+    - sub-list dos prioritarios se repete ate zerar a prioridade
+    - prioridades proporcionais a potencias de 100 (baixado: 1, tucmd: 100, ...)
+    - se alguem não estiver ecd, aumenta-se sua prioridade
